@@ -12,15 +12,14 @@
     
     
     <item>
-      <title>11 HTML入门笔记1</title>
+      <title>十一 HTML入门笔记（一）</title>
       <link>https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Thu, 25 Jun 2020 17:22:46 +0800</pubDate>
       
       <guid>https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
-      <description>这篇博客的内容主要是针对10、11制作的 学习笔记 HTML 是谁发明的? HTML由英国的 李爵士 发明的。 他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。 他还发明了WWW,同时发明了HTML、HTTP和URL。
-HTML代码为：
-&amp;lt;DOCTYPE html&amp;gt; &amp;lt;!-- 告诉浏览器文档类型，用什么解析 --&amp;gt; &amp;lt;html lang=&amp;#34;zh-CN&amp;#34;&amp;gt; &amp;lt;!-- HTML是根标签，里面有两个 标签：head &amp;amp; body --&amp;gt; &amp;lt;!-- lang用来设置 网页语言 --&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&amp;gt; &amp;lt;title&amp;gt;网页&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- body标签用来存放网页的内容 --&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 常用的章节的标签如下：
- header   HTML &amp;lt;header&amp;gt; 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
+      <description>这篇博客的内容主要是针对10、11制作的 学习笔记
+HTML 是谁发明的? HTML由英国的 李爵士 发明的。 他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。 他还发明了WWW,同时发明了HTML、HTTP和URL。
+HTML代码为： &amp;lt;DOCTYPE html&amp;gt; &amp;lt;!-- 告诉浏览器文档类型，用什么解析 --&amp;gt; &amp;lt;html lang=&amp;#34;zh-CN&amp;#34;&amp;gt; &amp;lt;!-- HTML是根标签，里面有两个 标签：head &amp;amp; body --&amp;gt; &amp;lt;!-- lang用来设置 网页语言 --&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&amp;gt; &amp;lt;title&amp;gt;网页&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- body标签用来存放网页的内容 --&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 常用的章节的标签如下：  header   HTML &amp;lt;header&amp;gt; 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
   main   HTML &amp;lt;main&amp;gt; 元素呈现了文档的 &amp;lt;body&amp;gt; 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。
   section   HTML &amp;lt;section&amp;gt;元素表示一个包含在HTML文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。
   h1~h6   HTML &amp;lt;h1&amp;gt;–标题(Heading)元素呈现了六个不同的级别的标题，&amp;lt;h1&amp;gt; 级别最高，而 级别最低。</description>
