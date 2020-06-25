@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>李杨帅 的 Boke</title>
-    <link>http://example.org/</link>
+    <link>https://comicparty.github.io/</link>
     <description>Recent content on 李杨帅 的 Boke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Thu, 25 Jun 2020 10:15:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 12:32:43 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://comicparty.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>如何使用hugo搭建博客 共7步</title>
+      <link>https://comicparty.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 25 Jun 2020 12:32:43 +0800</pubDate>
+      
+      <guid>https://comicparty.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>正如文章名所说，这是一篇教人用hugo搭建博客的教程。 下面的操作都是在mac上进行的。 步骤，在hugo官网上面都有
+下面咱们齐步走 1.安装hugo brew install hugo hugo version 成功安装hugo是可以查询hugo版本的 2.hugo new site comicparty.github.io-creator 里面的comicparty是使用的github名称，注意要小写。 3.执行肆句话 注意：执行的时候需要下载东西，所以网络要好 4.hugo new post/xxx.md 这一步相当于 创建一篇博客，博客名可以自定义
+创建成功之后，打开他 如果想写第篇博客，还是这个hugo new post/xxx.md代码，只需要换个博客名，就行
+5.hugo server -D本地预览博客 6.修改config.toml文件 baseURL= github pages显示的网址 languageCode = 语言 zh-hans zh =中文 han =汉字 s =简体 title =标题 theme =主题 7.使用源代码生成博客 输入之后，会看到一个叫 public文件夹，咱们的博客就在里面，把public上传到github上面，就可以炫友了。
+8.结束 以上就是用hugo写博客的内容了886</description>
+    </item>
+    
+    <item>
       <title>Openbodaji</title>
-      <link>http://example.org/posts/openbodaji/</link>
+      <link>https://comicparty.github.io/posts/openbodaji/</link>
       <pubDate>Thu, 25 Jun 2020 10:15:19 +0800</pubDate>
       
-      <guid>http://example.org/posts/openbodaji/</guid>
+      <guid>https://comicparty.github.io/posts/openbodaji/</guid>
       <description>大家好 我的博客来啦，昨天购买的网站要上线了啦～</description>
     </item>
     
