@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>11 HTML入门笔记1 | 李杨帅 的 Boke</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.72.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="11 HTML入门笔记1" />
+<meta property="og:description" content="这篇博客的内容主要是针对10、11制作的 学习笔记 HTML 是谁发明的? HTML由英国的 李爵士 发明的。 他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。 他还发明了WWW,同时发明了HTML、HTTP和URL。
+HTML代码为：
+&lt;DOCTYPE html&gt; &lt;!-- 告诉浏览器文档类型，用什么解析 --&gt; &lt;html lang=&#34;zh-CN&#34;&gt; &lt;!-- HTML是根标签，里面有两个 标签：head &amp; body --&gt; &lt;!-- lang用来设置 网页语言 --&gt; &lt;head&gt; &lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&gt; &lt;title&gt;网页&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;!-- body标签用来存放网页的内容 --&gt; &lt;/body&gt; &lt;/html&gt; 常用的章节的标签如下：
+ header   HTML &lt;header&gt; 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
+  main   HTML &lt;main&gt; 元素呈现了文档的 &lt;body&gt; 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。
+  section   HTML &lt;section&gt;元素表示一个包含在HTML文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。
+  h1~h6   HTML &lt;h1&gt;–标题(Heading)元素呈现了六个不同的级别的标题，&lt;h1&gt; 级别最高，而 级别最低。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/" />
+<meta property="article:published_time" content="2020-06-25T17:22:46+08:00" />
+<meta property="article:modified_time" content="2020-06-25T17:22:46+08:00" />
+<meta itemprop="name" content="11 HTML入门笔记1">
+<meta itemprop="description" content="这篇博客的内容主要是针对10、11制作的 学习笔记 HTML 是谁发明的? HTML由英国的 李爵士 发明的。 他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。 他还发明了WWW,同时发明了HTML、HTTP和URL。
+HTML代码为：
+&lt;DOCTYPE html&gt; &lt;!-- 告诉浏览器文档类型，用什么解析 --&gt; &lt;html lang=&#34;zh-CN&#34;&gt; &lt;!-- HTML是根标签，里面有两个 标签：head &amp; body --&gt; &lt;!-- lang用来设置 网页语言 --&gt; &lt;head&gt; &lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&gt; &lt;title&gt;网页&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;!-- body标签用来存放网页的内容 --&gt; &lt;/body&gt; &lt;/html&gt; 常用的章节的标签如下：
+ header   HTML &lt;header&gt; 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
+  main   HTML &lt;main&gt; 元素呈现了文档的 &lt;body&gt; 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。
+  section   HTML &lt;section&gt;元素表示一个包含在HTML文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。
+  h1~h6   HTML &lt;h1&gt;–标题(Heading)元素呈现了六个不同的级别的标题，&lt;h1&gt; 级别最高，而 级别最低。">
+<meta itemprop="datePublished" content="2020-06-25T17:22:46&#43;08:00" />
+<meta itemprop="dateModified" content="2020-06-25T17:22:46&#43;08:00" />
+<meta itemprop="wordCount" content="220">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="11 HTML入门笔记1"/>
+<meta name="twitter:description" content="这篇博客的内容主要是针对10、11制作的 学习笔记 HTML 是谁发明的? HTML由英国的 李爵士 发明的。 他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。 他还发明了WWW,同时发明了HTML、HTTP和URL。
+HTML代码为：
+&lt;DOCTYPE html&gt; &lt;!-- 告诉浏览器文档类型，用什么解析 --&gt; &lt;html lang=&#34;zh-CN&#34;&gt; &lt;!-- HTML是根标签，里面有两个 标签：head &amp; body --&gt; &lt;!-- lang用来设置 网页语言 --&gt; &lt;head&gt; &lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&gt; &lt;title&gt;网页&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;!-- body标签用来存放网页的内容 --&gt; &lt;/body&gt; &lt;/html&gt; 常用的章节的标签如下：
+ header   HTML &lt;header&gt; 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。
+  main   HTML &lt;main&gt; 元素呈现了文档的 &lt;body&gt; 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。
+  section   HTML &lt;section&gt;元素表示一个包含在HTML文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。
+  h1~h6   HTML &lt;h1&gt;–标题(Heading)元素呈现了六个不同的级别的标题，&lt;h1&gt; 级别最高，而 级别最低。"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        李杨帅 的 Boke
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/&amp;text=11%20HTML%e5%85%a5%e9%97%a8%e7%ac%94%e8%ae%b01" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://comicparty.github.io/posts/11html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/&amp;title=11%20HTML%e5%85%a5%e9%97%a8%e7%ac%94%e8%ae%b01" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">11 HTML入门笔记1</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-06-25T17:22:46&#43;08:00">June 25, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="这篇博客的内容主要是针对1011制作的-学习笔记">这篇博客的内容主要是针对10、11制作的 学习笔记</h2>
+<p>HTML 是谁发明的?
+HTML由英国的 李爵士 发明的。
+他写了世界上第一个浏览器和服务器，还他用浏览器访问了自己的服务器。
+他还发明了WWW,同时发明了HTML、HTTP和URL。</p>
+<p>HTML代码为：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML">&lt;<span style="color:#f92672">DOCTYPE</span> <span style="color:#a6e22e">html</span>&gt;
+    <span style="color:#75715e">&lt;!-- 告诉浏览器文档类型，用什么解析 --&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh-CN&#34;</span>&gt;
+    <span style="color:#75715e">&lt;!--  HTML是根标签，里面有两个 标签：head &amp; body  --&gt;</span>
+    <span style="color:#75715e">&lt;!-- lang用来设置 网页语言 --&gt;</span>
+&lt;<span style="color:#f92672">head</span>&gt;
+    <span style="color:#75715e">&lt;!-- head里面主要有 meta(元数据) 和 title(标题)标签 --&gt;</span>
+    &lt;<span style="color:#f92672">title</span>&gt;网页&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+    <span style="color:#75715e">&lt;!-- body标签用来存放网页的内容 --&gt;</span>
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><p>常用的章节的标签如下：</p>
+<ul>
+<li>header</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;header&gt;</code> 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。</p>
+</blockquote>
+<ul>
+<li>main</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;main&gt;</code> 元素呈现了文档的 <code>&lt;body&gt;</code> 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。</p>
+</blockquote>
+<ul>
+<li>section</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;section&gt;</code>元素表示一个包含在HTML文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。</p>
+</blockquote>
+<ul>
+<li>h1~h6</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;h1&gt;</code>–<!-- raw HTML omitted --> 标题(Heading)元素呈现了六个不同的级别的标题，<code>&lt;h1&gt;</code> 级别最高，而 <!-- raw HTML omitted --> 级别最低。</p>
+</blockquote>
+<ul>
+<li>nav</li>
+</ul>
+<blockquote>
+<p>HTML <!-- raw HTML omitted -->元素表示页面的一部分，其目的是在当前文档或其他文档中提供导航链接。导航部分的常见示例是菜单，目录和索引。</p>
+</blockquote>
+<ul>
+<li>artical</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;article&gt;</code>元素表示文档、页面、应用或网站中的独立结构，其意在成为可独立分配的或可复用的结构，如在发布中，它可能是论坛帖子、杂志或新闻文章、博客、用户提交的评论、交互式组件，或者其他独立的内容项目。​​</p>
+</blockquote>
+<ul>
+<li>aside</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;aside&gt;</code> 元素表示一个和其余页面内容几乎无关的部分，被认为是独立于该内容的一部分并且可以被单独的拆分出来而不会使整体受影响。其通常表现为侧边栏或者标注框（call-out boxes）。</p>
+</blockquote>
+<ul>
+<li>address</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;address&gt;</code> 元素 表示其中的 HTML 提供了某个人或某个组织（等等）的联系信息。</p>
+</blockquote>
+<ul>
+<li>footer</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;footer&gt;</code> 元素表示最近一个<strong>章节内容</strong>或者根节点（sectioning root ）元素的页脚。一个页脚通常包含该章节作者、版权数据或者与文档相关的链接等信息。</p>
+</blockquote>
+<p>全局属性有：</p>
+<ul>
+<li>id</li>
+</ul>
+<blockquote>
+<p>定义唯一标识符（ID），该标识符在整个文档中必须是唯一的。 其目的是在链接（使用片段标识符），脚本或样式（使用CSS）时标识元素。
+PS:实际上不唯一，HTML也不会显示错误 ，所以要 谨慎使用</p>
+</blockquote>
+<ul>
+<li>class</li>
+</ul>
+<blockquote>
+<p>一个以空格分隔的元素的类名（classes ）列表，它允许 CSS  和Javascript 通过类选择器 (class selectors) 或DOM方法( <code>document.getElementsByClassName</code>)来选择和访问特定的元素。</p>
+</blockquote>
+<ul>
+<li>contenteditable <code>&lt;blockquote contenteditable=&quot;true&quot;&gt;</code></li>
+</ul>
+<blockquote>
+<p>一个枚举属性（enumerated attribute），表示元素是否可被用户编辑。 如果可以，浏览器会调整元素的部件（widget）以允许编辑。</p>
+<ul>
+<li>true 或者空字符串，表明元素是可被编辑的；</li>
+<li>false，表明元素不能被编辑。</li>
+</ul>
+</blockquote>
+<ul>
+<li>hidden</li>
+</ul>
+<blockquote>
+<p>布尔属性表示该元素尚未或不再相关。例如，它可用于隐藏在登录过程完成之前无法使用的页面元素。浏览器不会呈现此类元素。不得使用此属性隐藏可合法显示的内容</p>
+</blockquote>
+<ul>
+<li>style</li>
+</ul>
+<blockquote>
+<p>含要应用于元素的CSS样式声明。 请注意，建议在单独的文件中定义样式。 该属性和<code>&lt;style&gt;</code>元素主要用于快速样式化，例如用于测试目的。</p>
+</blockquote>
+<ul>
+<li>tabindex</li>
+</ul>
+<blockquote>
+<p>整数属性，指示元素是否可以获取输入焦点（可聚焦），是否应该参与顺序键盘导航，如果是，则表示哪个位置。它可能需要几个值：</p>
+<ul>
+<li>负值表示该元素应该是可聚焦的，但不应通过顺序键盘导航到达;</li>
+<li>0 表示元素应通过顺序键盘导航可聚焦和可到达，但其相对顺序由平台约定定义;</li>
+<li>正值意味着元素应该可以通过顺序键盘导航进行聚焦和访问;元素聚焦的顺序是tabindex的增加值。如果多个元素共享相同的tabindex，则它们的相对顺序遵循它们在文档中的相对位置。</li>
+</ul>
+</blockquote>
+<ul>
+<li>title</li>
+</ul>
+<blockquote>
+<p>包含表示与其所属元素相关信息的文本。 这些信息通常可以作为提示呈现给用户,但不是必须的。
+当图片裂了，不能正常显示或盲人使用的时候，就很有用。</p>
+</blockquote>
+<p>常用的内容标签有：</p>
+<ul>
+<li>P</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;p&gt;</code>元素（或者说 HTML 段落元素）表示文本的一个段落。该元素通常表现为一整块与相邻文本分离的文本，或以垂直的空白隔离或以首行缩进。
+另外，<code>&lt;p&gt;</code> 是块级元素。</p>
+</blockquote>
+<ul>
+<li>hr</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;hr&gt;</code> 元素表示段落级元素之间的主题转换（例如，一个故事中的场景的改变，或一个章节的主题的改变）。
+在HTML的早期版本中，它是一个水平线。现在它仍能在可视化浏览器中表现为水平线，但目前被定义为语义上的，而不是表现层面上。
+所以如果想画一条横线，请使用适当的css样式来修饰。
+如使用伪元素<code>::before</code>or<code>::after</code> 进行画线</p>
+</blockquote>
+<ul>
+<li>pre</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;pre&gt;</code> 元素表示预定义格式文本。在该元素中的文本通常按照原文件中的编排，以等宽字体的形式展现出来，文本中的空白符（比如空格和换行符）都会显示出来。
+紧跟在 <code>&lt;pre&gt;</code> 开始标签后的换行符也会被省略</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">pre</span>&gt;紧跟在这里的换行会被省略
+
+    这里的不会
+&lt;/<span style="color:#f92672">pre</span>&gt;
+</code></pre></div><ul>
+<li>blockqute</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;blockquote&gt;</code> 元素（或者 HTML 块级引用元素），代表其中的文字是引用内容。通常在渲染时，这部分的内容会有一定的缩进（注 中说明了如何更改）。若引文来源于网络，则可以将原内容的出处 URL 地址设置到 cite 特性上，若要以文本的形式告知读者引文的出处时，可以通过 <!-- raw HTML omitted --> 元素。</p>
+</blockquote>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote">MDN-blockqute</a> 可以来这里看看，示例中 使用了<code>footer</code>,而<code>footer</code>也确实可以做为章节的页脚。</p>
+<ul>
+<li>ol+li</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;ol&gt;</code> 元素表示有序列表，通常渲染为一个带编号的列表。</p>
+</blockquote>
+<ul>
+<li>ul+li</li>
+</ul>
+<blockquote>
+<p>HTML <!-- raw HTML omitted --> 元素（或称 HTML 无序列表元素）表示一个内可含多个元素的无序列表或项目符号列表。</p>
+</blockquote>
+<ul>
+<li>li</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;li&gt;</code> 元素 （或称 HTML 列表条目元素） 用于表示列表里的条目。
+<strong>它必须包含在一个父元素里</strong>：一个有序列表(<code>&lt;ol&gt;</code>)，一个无序列表(<!-- raw HTML omitted -->)，或者一个菜单 (<code>&lt;menu&gt;</code>)。
+在菜单或者无序列表里，列表条目通常用点排列显示；在有序列表里，列表条目通常在左边显示按升序排列的计数，例如数字或者字母。</p>
+</blockquote>
+<ul>
+<li>dl+dt+dd</li>
+</ul>
+<blockquote>
+<p>HTML <code>&lt;dl&gt;</code> 元素 （或 HTML 描述列表元素）是一个包含术语定义以及描述的列表，通常用于展示词汇表或者元数据 (键-值对列表)。
+HTML <code>&lt;dt&gt;</code> 元素 （或 HTML 术语定义元素）用于在一个定义列表中声明一个术语。该元素仅能作为 <code>&lt;dl&gt;</code> 的子元素出现。通常在该元素后面会跟着 <code>&lt;dd&gt;</code> 元素， 然而，多个连续出现的 <code>&lt;dt&gt;</code> 元素都将由出现在它们后面的第一个 <code>&lt;dd&gt;</code> 元素定义。
+HTML <code>&lt;dd&gt;</code> 元素（HTML 描述元素）用来指明一个描述列表  (<code>&lt;dl&gt;</code>) 元素中一个术语的描述。这个元素只能作为描述列表元素的子元素出现，并且必须跟着一个 <code>&lt;dt&gt;</code> 元素。</p>
+</blockquote>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://comicparty.github.io/" >
+    &copy;  李杨帅 的 Boke 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
