@@ -6,10 +6,26 @@
     <description>Recent content on 李杨帅 的 Boke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Tue, 11 Aug 2020 16:31:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 16:31:14 +0800</lastBuildDate>
     
 	<atom:link href="https://comicparty.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18浅析URL</title>
+      <link>https://comicparty.github.io/post/18%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Sun, 20 Sep 2020 16:31:14 +0800</pubDate>
+      
+      <guid>https://comicparty.github.io/post/18%E6%B5%85%E6%9E%90url/</guid>
+      <description>URL 包含哪几部分，每部分分别有什么作用 URL 的组成是： 协议 + 域名或IP + 端口号 + 路径 + 查询字符串 + 锚点
+  协议 代表该页面使用何种协议
+  域名或IP 要访问一台互联网上的服务器，最终还必须通过IP地址来实现，域名解析就是将域名重新转换为IP地址的过程。
+  端口号 跟在域名后面的是端口，域名和端口之间使用“:”作为分隔符。端口不是一个URL必须的部分，如果省略端口部分，将采用默认端口。
+  路径 访问的资源在服务器下的相对路径，是服务器上的一个目录或者文件地址。
+  查询字符串 查询搜索的部分，通过问号？连接到路径后面，有时候也归类到路径中。
+  锚点 从“#”开始到最后，都是锚部分。锚部分不是一个URL必须的部分。
+  DNS 的作用是什么，nslookup 命令怎么用  DNS 的作用 DNS服务器是计算机域名系统 (Domain Name System 或 Domain Name Service) 的缩写，它是由解析器和域名服务器组成的。作用是把域名转换成为网络可以识别的 IP 地址，然后进行实际网络通讯。 nslookup 命令怎么用 运行 cmder， 输入命令 &amp;ldquo;nslookup + 域名&amp;rdquo;, 可以得到该域名的服务器。  IP 的作用是什么，ping 命令怎么用 输入“ping 网站地址”命令检查网络是否畅通和输入“ping 其它电脑ip”命令是否能连接局域网其它电脑。</description>
+    </item>
     
     <item>
       <title>十八css总结</title>
